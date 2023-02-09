@@ -29,7 +29,6 @@ def error(error_message):
 
 if __name__ == "__main__":
 	try:
-
 		server = smtplib.SMTP('smtp.gmail.com', 587)
 		me = #YOUR EMAIL ACCOUNT
 		you = #RECEIVER'S EMAIL ACCOUNT
@@ -38,6 +37,7 @@ if __name__ == "__main__":
 		print(f'starting now at {now}')
 		main()
 		print('all set')
+		
 	except BaseException as be:
 		print(str(be))
 		error(str(be))
