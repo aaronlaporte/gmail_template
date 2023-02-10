@@ -14,11 +14,11 @@ import datetime
 ## Usage
 Replace the placeholder values of _'me'_, _'mypass'_, and _'you'_ with your email account and gmail app password, and the recipient's email respectively.
 
-#### GMAIL APP PASSWORD
-Instructions on how to obtain your gmail app password can be found [here](https://towardsdatascience.com/automate-sending-emails-with-gmail-in-python-449cc0c3c317)
-
 Run the script using the command python email_sender.py
 Check your inbox for the email sent by the script.
+
+### **GMAIL APP PASSWORD**
+Instructions on how to obtain your gmail app password can be found [here](https://towardsdatascience.com/automate-sending-emails-with-gmail-in-python-449cc0c3c317)
 
 ## How it works
 The script uses the smtplib library to connect to the SMTP server of Gmail. After a successful connection, it logs in to the Gmail account using the credentials provided.
