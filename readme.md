@@ -4,8 +4,11 @@ A simple Python script that sends an email containing a link to the recipient us
 
 ## Requirements
 Python 3
+
 smtplib library
+
 email library
+
 datetime library
 
 ## Usage
