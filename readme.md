@@ -3,13 +3,16 @@
 A simple Python script that sends an email containing a link to the recipient using the SMTP library.
 
 ## Requirements
-import smtplib
 
-from email.mime.multipart import MIMEMultipart
+This script requires the following packages:
 
-from email.mime.text import MIMEText
+- smtplib
 
-import datetime
+- from email.mime.multipart import MIMEMultipart
+
+- from email.mime.text import MIMEText
+
+-  datetime
 
 ## Usage
 Replace the placeholder values of _'me'_, _'mypass'_, and _'you'_ with your email account and gmail app password, and the recipient's email respectively.
